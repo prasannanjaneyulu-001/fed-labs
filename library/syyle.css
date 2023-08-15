@@ -1,0 +1,88 @@
+body{
+    margin: 0;
+}
+#div_container{
+       background-image: none;
+       position: inherit;
+}
+#div1{
+    width: auto;
+    height: 150px;
+    background-color: black;
+    position: relative;
+}
+#img1{
+    margin-top: 10px;
+    margin-left: 30px;
+    border-radius: 20%;
+}
+#logout{
+   position: absolute;
+   top: 100px;
+   right: 30px;
+   border-radius: 50%; 
+   width:40px;
+   height: 40px;
+
+}
+span{
+    font-size: large;
+    color: aliceblue;
+    position: absolute;
+    top: 50px;
+    left: 200px;
+}
+#div2{
+    width: 200px;
+    height: 81vh;
+    background-color: black;
+    position: absolute;
+}
+.h3{
+    color: azure;
+    text-align: center;
+}
+.h3:focus{
+    font-size: large;
+}
+#div3{
+
+    margin-left: 200PX;
+    width: auto;
+    height:81vh;
+    background-color:whitesmoke;
+    display: flex;
+    flex-wrap: wrap;
+    align-items:flex-start;
+    justify-content: space-around;
+}
+#d1{
+    width: 400px;
+    height: 300px;
+    background-color: bisque;
+    border-radius: 20px;
+}
+#d2{
+    width: 400px;
+    height: 300px;
+    background-color: bisque;
+    border-radius: 20px;
+}
+#d3{
+    width: 400px;
+    height: 300px;
+    background-color: bisque;
+    border-radius: 20px;
+}
+#d4{
+    width: 400px;
+    height: 300px;
+    background-color: bisque;
+    border-radius: 20px;
+}
+#d5{
+    width: 400px;
+    height: 300px;
+    background-color: bisque;
+    border-radius: 20px;
+}
