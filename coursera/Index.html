@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>my_personal_Portfolio</title>
+    <link rel="stylesheet" href="./style.css"/>
+    <script src="./script.js"></script>
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <nav>
+      <div id="home">
+        <div class="profile_name">
+          prasannanjaneyulu
+          <div class="contact_info">
+            <img src="data:image/png;base64,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" alt="https://icons8.com/icon/124377/circled-envelope"/>
+          prasannanjaneyulu@gmail.com
+        </div>
+        <div style="clear:both;"></div>
+        <div class="contact_info">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBlnev8t4EPZ0ObWO4OF7gi12_FygCJxk-3a3qM2oIiw&usqp=CAU&ec=48600113" alt="https://icons8.com/icon/124377/circled-envelope"/>
+          8125622915
+
+        </div>
+        </div>
+        <div class="topdiv">
+          <a class="topmenu" href="#about-me">About Me</a>
+          <!-- Add the links for Skills, Projects and Recommendation here -->
+          <a class="topmenu" href="#skills">Skills</a>
+          <a class="topmenu" href="#projects">Projects</a>
+          <a class="topmenu" href="#recommendations">Recommendation</a>
+
+        </div>
+      </div>    
+    </nav>
+
+    <!-- About Me -->
+    <section id="about-me" class="container">
+      <div>
+        <img src="https://cdn.dribbble.com/users/1579322/screenshots/6587273/blue_boy_typing_nothought.gif" class="profile_image"/>
+      </div>
+
+      <div>
+          <h1>
+            Hi, I'm prashu! <img src="https://www.shutterstock.com/image-vector/hand-waving-hello-welcome-goodbye-600w-1931045255.jpg" width="60px"/>
+          </h1>
+          <p>
+            I am a Student in the engineering college.
+            I want to be a full stack developer. since last 2 years, I have been learning a lot.
+            I want to build my own startup ideas .
+
+          </p>
+      </div>
+    </section>
+              
+    <!-- Skills -->
+    <section id="skills">
+      <h2>Skills</h2>
+      <div style="clear:both;"></div>
+
+      <div class="all_skills">
+        <div class="skill">
+          <img src="data:image/png;base64,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"/>
+          <h6>HTML</h6>
+          <p>2 years experience</p>
+        </div>  
+
+        <div class="skill">
+          <img src="data:image/png;base64,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"/>
+          <h6>JavaScript</h6>
+          <p>2 years experience</p>
+        </div>  
+
+        <div class="skill">
+          <img src="data:image/png;base64,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"/>
+          <h6>java</h6>
+          <p>2 years experience</p>
+        </div>
+
+        <div class="skill">
+          <img src="data:image/png;base64,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"/>
+          <h6>python</h6>
+          <p>1.5 years experience</p>
+        </div>
+
+        
+
+
+
+        <!-- Add more skills here -->
+
+
+      </div>
+    </section>
+          
+    <!-- Projects -->
+    <section class="projects" id="projects">
+      <h2>
+        Projects
+      </h2>
+      <div style="clear:both;"></div>
+
+        <div id="projects-container" class="projects-container">
+          <div class="project-card">
+            <h3>sticky-notes</h3>
+            <ul>
+              <li>Developed an app for writing and storing data for a certain period of time</li>
+            </ul>
+          </div>
+          <hr>
+          <div class="project-card">
+            <h3>binchecker</h3>
+            <ul>
+              <li>Developed a binchecker is used to check weather this credit cards and debit cards belongs to them</li>
+            </ul>
+          </div>
+          <hr>
+          <div class="project-card">
+            <h3>shopping platform</h3>
+            <ul>
+              <li>Created a styled multi-page website for a new player in the fashion industry and integrated it with a shopping cart, using stripe for payment gateway</li>
+            </ul>
+          </div>
+    </div>
+    </section>
+    <div style="clear:both;"></div>
+
+    <!-- Recommendations -->
+    <section id="recommendations">
+      <h2>Recommendations</h2>
+      <div style="clear:both;"></div>
+      <div class="all_recommendations" id="all_recommendations">
+        <div class="recommendation">
+          <span>&#8220;</span>
+          prashu is a very quick learner and quickly grasps key concepts of Web development. 
+          He got a great attitude & he is an excellent team player. 
+          He has a curious mind and asks the right question. 
+          He takes initiative within a team and has potentials to lead the team.
+          <span>&#8221;</span>
+        </div>
+        <div class="recommendation">
+          <span>&#8220;</span>
+          Working with prashu has been an awesome experience. 
+          He is highly knowledgable and always goes the extra step to make sure everything is right. 
+          For any future projects that need him expertise I would definitely want to work with him again.
+          <span>&#8221;</span>
+        </div>
+        <div class="recommendation">
+          <span>&#8220;</span>
+          I had worked along with prashu during the initial phase of our venture which needed Web development. 
+          He is a committed resource who has in depth knowledge about the domain. 
+          He will be an asset for any organisation! 
+          <span>&#8221;</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Recommendation Form -->
+    <section id="contact">
+      <div class="flex_center">
+        <fieldset>
+          <legend class="introduction">Leave a Recommendation</legend>          
+          <input type="text" placeholder="Name (Optional)"> <br/>
+          <textarea id="new_recommendation" cols="500" rows="10" placeholder="Message"></textarea>
+          <div class="flex_center">
+            <button id="recommend_btn" onclick="addRecommendation()">Submit</button>
+          </div>
+        </fieldset>
+      </div>
+    </section>
+
+    <div class="iconbutton">
+      <a href="#home">
+        <!--Add the code here for the logo to appear and the icon to be actionable-->
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" width="63px">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M15 11.25l-3-3m0 0l-3 3m3-3v7.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+        </svg>
+      </a>
+    </div>
+
+    <div class="popup" id="popup" class="flex_center">
+      <img src="data:image/png;base64,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"/>
+      <h3><!-- Add appropriate text here-->
+        "Thanks for leaving your valuable recommendation!"</h3>
+      <button onclick="showPopup(false)">Ok</button>
+    </div>
+  </body>
+</html>
